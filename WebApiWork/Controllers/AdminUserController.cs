@@ -24,7 +24,7 @@ namespace WebApiWork.Controllers
 
             if (adminUser==null)
             {
-                return NotFound("Böyle bir kategori mevcut değil.");
+                return NotFound("Böyle bir kullanıcı mevcut değil.");
             }
             return Ok(adminUser);
         }
